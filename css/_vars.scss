@@ -1,0 +1,12 @@
+$bg: #f2f2f2;
+$text-color: #252525;
+$font: arial, sans-serif;
+$cunty-bollocks: blue;
+$twat-flap: red;
+
+@mixin rounded($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
